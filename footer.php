@@ -35,12 +35,13 @@
                     	<p>Theme is <a href="https://github.com/chakhsu/pinghsu" target="_blank">Pinghsu</a> by <a href="https://www.linpx.com/" target="_blank">Chakhsu</a></p>
 						<p>Powered by <a href="http://www.typecho.org" target="_blank" rel="nofollow">Typecho</a></p>
 						<p>&copy; <?php echo date('Y'); ?> <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?></a></p>
+                        <p><script src="https://s13.cnzz.com/z_stat.php?id=1264458503&web_id=1264458503" language="JavaScript"></script></p>
 					</div>
 				</div>
 			</div>
 			<div class="meta-item meta-posts">
 				<h3 class="meta-title">RECENT POSTS</h3>
-                <?php getRecentPosts($this,8); ?>
+                <?php getRecentPosts($this,5); ?>
 			</div>
             <div class="meta-item meta-comments">
                 <h3 class="meta-title">RECENT COMMENTS</h3>
